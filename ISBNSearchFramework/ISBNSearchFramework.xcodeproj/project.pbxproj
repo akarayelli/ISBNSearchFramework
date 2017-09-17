@@ -10,6 +10,14 @@
 		0FC275741F6E7B4600712F29 /* ISBNSearchFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC2756A1F6E7B4600712F29 /* ISBNSearchFramework.framework */; };
 		0FC275791F6E7B4600712F29 /* ISBNSearchFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC275781F6E7B4600712F29 /* ISBNSearchFrameworkTests.swift */; };
 		0FC2757B1F6E7B4600712F29 /* ISBNSearchFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FC2756D1F6E7B4600712F29 /* ISBNSearchFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FC2758A1F6E7C9E00712F29 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC275891F6E7C9E00712F29 /* Search.swift */; };
+		0FC2758D1F6E7CA600712F29 /* ScanProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2758B1F6E7CA600712F29 /* ScanProvider.swift */; };
+		0FC2758E1F6E7CA600712F29 /* ScanProviderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2758C1F6E7CA600712F29 /* ScanProviderExtension.swift */; };
+		0FC275901F6E7CAD00712F29 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2758F1F6E7CAD00712F29 /* BookModel.swift */; };
+		0FC275921F6E7CDF00712F29 /* GoogleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC275911F6E7CDF00712F29 /* GoogleSearch.swift */; };
+		0FC275951F6E7DC500712F29 /* SearchConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC275941F6E7DC500712F29 /* SearchConstants.swift */; };
+		0FC2759B1F6E7E2C00712F29 /* GoogleAPIResponseKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2759A1F6E7E2C00712F29 /* GoogleAPIResponseKeys.swift */; };
+		0FC2759D1F6E81B800712F29 /* SearchBookError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2759C1F6E81B800712F29 /* SearchBookError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		0FC275731F6E7B4600712F29 /* ISBNSearchFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ISBNSearchFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC275781F6E7B4600712F29 /* ISBNSearchFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISBNSearchFrameworkTests.swift; sourceTree = "<group>"; };
 		0FC2757A1F6E7B4600712F29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC275891F6E7C9E00712F29 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = Search.swift; path = Protocol/Search.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0FC2758B1F6E7CA600712F29 /* ScanProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ScanProvider.swift; path = Provider/ScanProvider.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0FC2758C1F6E7CA600712F29 /* ScanProviderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = ScanProviderExtension.swift; path = Provider/ScanProviderExtension.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0FC2758F1F6E7CAD00712F29 /* BookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = BookModel.swift; path = Model/BookModel.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0FC275911F6E7CDF00712F29 /* GoogleSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = GoogleSearch.swift; path = SearchType/GoogleSearch.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		0FC275941F6E7DC500712F29 /* SearchConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchConstants.swift; path = Util/SearchConstants.swift; sourceTree = "<group>"; };
+		0FC2759A1F6E7E2C00712F29 /* GoogleAPIResponseKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleAPIResponseKeys.swift; path = Enum/GoogleAPIResponseKeys.swift; sourceTree = "<group>"; };
+		0FC2759C1F6E81B800712F29 /* SearchBookError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchBookError.swift; path = Enum/SearchBookError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +87,12 @@
 		0FC2756C1F6E7B4600712F29 /* ISBNSearchFramework */ = {
 			isa = PBXGroup;
 			children = (
+				0FC275871F6E7BE000712F29 /* Protocol */,
+				0FC275861F6E7BDB00712F29 /* Provider */,
+				0FC275851F6E7BD000712F29 /* Model */,
+				0FC275841F6E7BC800712F29 /* SearchType */,
+				0FC275931F6E7DA600712F29 /* Util */,
+				0FC275981F6E7DFA00712F29 /* Enum */,
 				0FC2756D1F6E7B4600712F29 /* ISBNSearchFramework.h */,
 				0FC2756E1F6E7B4600712F29 /* Info.plist */,
 			);
@@ -84,6 +106,56 @@
 				0FC2757A1F6E7B4600712F29 /* Info.plist */,
 			);
 			path = ISBNSearchFrameworkTests;
+			sourceTree = "<group>";
+		};
+		0FC275841F6E7BC800712F29 /* SearchType */ = {
+			isa = PBXGroup;
+			children = (
+				0FC275911F6E7CDF00712F29 /* GoogleSearch.swift */,
+			);
+			name = SearchType;
+			sourceTree = "<group>";
+		};
+		0FC275851F6E7BD000712F29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FC2758F1F6E7CAD00712F29 /* BookModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0FC275861F6E7BDB00712F29 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				0FC2758B1F6E7CA600712F29 /* ScanProvider.swift */,
+				0FC2758C1F6E7CA600712F29 /* ScanProviderExtension.swift */,
+			);
+			name = Provider;
+			sourceTree = "<group>";
+		};
+		0FC275871F6E7BE000712F29 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				0FC275891F6E7C9E00712F29 /* Search.swift */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		0FC275931F6E7DA600712F29 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0FC275941F6E7DC500712F29 /* SearchConstants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		0FC275981F6E7DFA00712F29 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				0FC2759A1F6E7E2C00712F29 /* GoogleAPIResponseKeys.swift */,
+				0FC2759C1F6E81B800712F29 /* SearchBookError.swift */,
+			);
+			name = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +180,7 @@
 				0FC275661F6E7B4600712F29 /* Frameworks */,
 				0FC275671F6E7B4600712F29 /* Headers */,
 				0FC275681F6E7B4600712F29 /* Resources */,
+				0FC275881F6E7C0900712F29 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +222,7 @@
 					0FC275691F6E7B4600712F29 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 75C2X73JT4;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					0FC275721F6E7B4600712F29 = {
@@ -193,11 +267,35 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FC275881F6E7C0900712F29 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: Detected, stopping\"\nelse\nexport ALREADYINVOKED=\"true\"\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-iosuniversal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FC275651F6E7B4600712F29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FC2758E1F6E7CA600712F29 /* ScanProviderExtension.swift in Sources */,
+				0FC275921F6E7CDF00712F29 /* GoogleSearch.swift in Sources */,
+				0FC2758A1F6E7C9E00712F29 /* Search.swift in Sources */,
+				0FC2759D1F6E81B800712F29 /* SearchBookError.swift in Sources */,
+				0FC2759B1F6E7E2C00712F29 /* GoogleAPIResponseKeys.swift in Sources */,
+				0FC275951F6E7DC500712F29 /* SearchConstants.swift in Sources */,
+				0FC275901F6E7CAD00712F29 /* BookModel.swift in Sources */,
+				0FC2758D1F6E7CA600712F29 /* ScanProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +420,7 @@
 		0FC2757F1F6E7B4600712F29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 75C2X73JT4;
@@ -334,6 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.akarayelli.ISBNSearchFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +441,7 @@
 		0FC275801F6E7B4600712F29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 75C2X73JT4;
@@ -360,6 +461,7 @@
 		0FC275821F6E7B4600712F29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 75C2X73JT4;
 				INFOPLIST_FILE = ISBNSearchFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +474,7 @@
 		0FC275831F6E7B4600712F29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 75C2X73JT4;
 				INFOPLIST_FILE = ISBNSearchFrameworkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

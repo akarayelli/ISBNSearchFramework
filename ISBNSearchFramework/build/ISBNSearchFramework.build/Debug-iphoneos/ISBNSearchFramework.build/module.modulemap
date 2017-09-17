@@ -1,0 +1,10 @@
+framework module ISBNSearchFramework {
+  umbrella header "ISBNSearchFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ISBNSearchFramework.Swift {
+    header "ISBNSearchFramework-Swift.h"
+}

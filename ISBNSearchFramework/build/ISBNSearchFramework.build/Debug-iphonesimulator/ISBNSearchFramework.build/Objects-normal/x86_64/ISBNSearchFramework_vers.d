@@ -1,0 +1,2 @@
+dependencies: \
+  /Users/alicankarayelli/Desktop/workspace/ISBNSearchFramework/ISBNSearchFramework/ISBNSearchFramework/build/ISBNSearchFramework.build/Debug-iphonesimulator/ISBNSearchFramework.build/DerivedSources/ISBNSearchFramework_vers.c

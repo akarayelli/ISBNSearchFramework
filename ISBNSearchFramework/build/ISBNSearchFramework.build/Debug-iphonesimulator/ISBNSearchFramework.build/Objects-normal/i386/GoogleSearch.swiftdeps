@@ -1,0 +1,530 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GoogleSearch"
+provides-nominal:
+- "C19ISBNSearchFramework12GoogleSearch"
+provides-member:
+- ["C19ISBNSearchFramework12GoogleSearch", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "AnyObject"
+- !private "URL"
+- !private "GoogleAPIResponseKeys"
+- !private "SearchBookError"
+- !private "CastingPrecedence"
+- "Search"
+- !private "JSONSerialization"
+- !private "SearchConstants"
+- "GoogleSearch"
+- "AssignmentPrecedence"
+- !private "=="
+- "String"
+- "ScanProviderDelegate"
+- !private "StringLiteralType"
+- !private "+"
+- !private "BookModel"
+- "Array"
+- !private "Int"
+- !private "print"
+- !private "URLSession"
+depends-member:
+- !private ["Ps9AnyObject", "BookModel"]
+- !private ["Ps9AnyObject", "GoogleAPIResponseKeys"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "Network"]
+- !private ["Ps9AnyObject", "SearchBookError"]
+- !private ["Ps9AnyObject", "SearchConstants"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "URL"]
+- !private ["Ps9AnyObject", "URLSession"]
+- !private ["Ps9AnyObject", "dataTask"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "resume"]
+- !private ["Ps9AnyObject", "scanProviderDelegate"]
+- !private ["Ps9AnyObject", "shared"]
+- ["Ps9AnyObject", "startSearching"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "first"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "enumerated"]
+- !private ["Ps23BidirectionalCollection", "first"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- !private ["Ps22BidirectionalIndexable", "enumerated"]
+- !private ["Ps22BidirectionalIndexable", "first"]
+- !private ["V19ISBNSearchFramework9BookModel", "authors"]
+- !private ["V19ISBNSearchFramework9BookModel", "coverImage"]
+- !private ["V19ISBNSearchFramework9BookModel", "deinit"]
+- !private ["V19ISBNSearchFramework9BookModel", "description"]
+- !private ["V19ISBNSearchFramework9BookModel", "init"]
+- !private ["V19ISBNSearchFramework9BookModel", "name"]
+- !private ["V19ISBNSearchFramework9BookModel", "pageCount"]
+- !private ["V19ISBNSearchFramework9BookModel", "publishDate"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "dataTask"]
+- !private ["Ps7CVarArg", "enumerated"]
+- !private ["Ps7CVarArg", "first"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "resume"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "enumerated"]
+- !private ["Ps10Collection", "first"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerated"]
+- !private ["Ps28CustomDebugStringConvertible", "first"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "enumerated"]
+- !private ["Ps17CustomReflectable", "first"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- !private ["Ps23CustomStringConvertible", "enumerated"]
+- !private ["Ps23CustomStringConvertible", "first"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["V10Foundation4Data", "deinit"]
+- !private ["Vs10Dictionary", "Index"]
+- !private ["Vs10Dictionary", "SubSequence"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Vs18EnumeratedIterator", "Element"]
+- !private ["Vs18EnumeratedSequence", "Iterator"]
+- !private ["Vs18EnumeratedSequence", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "allowFragments"]
+- !private ["Ps9Equatable", "authors"]
+- !private ["Ps9Equatable", "bookNotFoundError"]
+- !private ["Ps9Equatable", "connectionError"]
+- !private ["Ps9Equatable", "dataTask"]
+- !private ["Ps9Equatable", "description"]
+- !private ["Ps9Equatable", "google"]
+- !private ["Ps9Equatable", "imageLinks"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "items"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "pageCount"]
+- !private ["Ps9Equatable", "publishedDate"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "resume"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "thumbnail"]
+- !private ["Ps9Equatable", "title"]
+- !private ["Ps9Equatable", "unknownStructureError"]
+- !private ["Ps9Equatable", "volumeInfo"]
+- !private ["Ps5Error", "bookNotFoundError"]
+- !private ["Ps5Error", "connectionError"]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps5Error", "unknownStructureError"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "allowFragments"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "enumerated"]
+- !private ["Ps25ExpressibleByArrayLiteral", "first"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Index"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "SubSequence"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "authors"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "deinit"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "description"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "imageLinks"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "items"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "pageCount"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "publishedDate"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "rawValue"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "thumbnail"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "title"]
+- !private ["O19ISBNSearchFramework21GoogleAPIResponseKeys", "volumeInfo"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "AnyObject"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "BookModel"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "GoogleAPIResponseKeys"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "Int"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "JSONSerialization"]
+- ["C19ISBNSearchFramework12GoogleSearch", "ScanProviderDelegate"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "SearchBookError"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "SearchConstants"]
+- ["C19ISBNSearchFramework12GoogleSearch", "String"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "URL"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "URLSession"]
+- ["C19ISBNSearchFramework12GoogleSearch", "deinit"]
+- ["C19ISBNSearchFramework12GoogleSearch", "init"]
+- !private ["C19ISBNSearchFramework12GoogleSearch", "print"]
+- ["C19ISBNSearchFramework12GoogleSearch", "scanProviderDelegate"]
+- ["C19ISBNSearchFramework12GoogleSearch", "startSearching"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "authors"]
+- !private ["Ps8Hashable", "bookNotFoundError"]
+- !private ["Ps8Hashable", "connectionError"]
+- !private ["Ps8Hashable", "dataTask"]
+- !private ["Ps8Hashable", "description"]
+- !private ["Ps8Hashable", "google"]
+- !private ["Ps8Hashable", "imageLinks"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "items"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "pageCount"]
+- !private ["Ps8Hashable", "publishedDate"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "resume"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "thumbnail"]
+- !private ["Ps8Hashable", "title"]
+- !private ["Ps8Hashable", "unknownStructureError"]
+- !private ["Ps8Hashable", "volumeInfo"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "enumerated"]
+- !private ["Ps9Indexable", "first"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- !private ["Ps13IndexableBase", "enumerated"]
+- !private ["Ps13IndexableBase", "first"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "enumerated"]
+- !private ["Ps17MutableCollection", "first"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "enumerated"]
+- !private ["Ps16MutableIndexable", "first"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "dataTask"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonObject"]
+- !private ["CSo8NSObject", "resume"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["VC19ISBNSearchFramework15SearchConstants7Network", "GoogleBookAPIUrl"]
+- !private ["Ps9OptionSet", "allowFragments"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "enumerated"]
+- !private ["Ps22RandomAccessCollection", "first"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "append"]
+- !private ["Ps21RandomAccessIndexable", "enumerated"]
+- !private ["Ps21RandomAccessIndexable", "first"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "enumerated"]
+- !private ["Ps26RangeReplaceableCollection", "first"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- !private ["Ps25RangeReplaceableIndexable", "enumerated"]
+- !private ["Ps25RangeReplaceableIndexable", "first"]
+- !private ["Ps16RawRepresentable", "allowFragments"]
+- !private ["Ps16RawRepresentable", "authors"]
+- !private ["Ps16RawRepresentable", "description"]
+- !private ["Ps16RawRepresentable", "imageLinks"]
+- !private ["Ps16RawRepresentable", "items"]
+- !private ["Ps16RawRepresentable", "pageCount"]
+- !private ["Ps16RawRepresentable", "publishedDate"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", "thumbnail"]
+- !private ["Ps16RawRepresentable", "title"]
+- !private ["Ps16RawRepresentable", "volumeInfo"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "allowFragments"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["O19ISBNSearchFramework12ScanProvider", "deinit"]
+- !private ["O19ISBNSearchFramework12ScanProvider", "google"]
+- ["P19ISBNSearchFramework20ScanProviderDelegate", "deinit"]
+- !private ["P19ISBNSearchFramework20ScanProviderDelegate", "scanProvider"]
+- !private ["P19ISBNSearchFramework6Search", "BookModel"]
+- !private ["P19ISBNSearchFramework6Search", "GoogleAPIResponseKeys"]
+- !private ["P19ISBNSearchFramework6Search", "JSONSerialization"]
+- !private ["P19ISBNSearchFramework6Search", "SearchBookError"]
+- !private ["P19ISBNSearchFramework6Search", "SearchConstants"]
+- !private ["P19ISBNSearchFramework6Search", "String"]
+- !private ["P19ISBNSearchFramework6Search", "URL"]
+- !private ["P19ISBNSearchFramework6Search", "URLSession"]
+- !private ["P19ISBNSearchFramework6Search", "print"]
+- !private ["P19ISBNSearchFramework6Search", "scanProviderDelegate"]
+- ["P19ISBNSearchFramework6Search", "startSearching"]
+- ["P19ISBNSearchFramework6Search", ""]
+- !private ["O19ISBNSearchFramework15SearchBookError", "bookNotFoundError"]
+- !private ["O19ISBNSearchFramework15SearchBookError", "connectionError"]
+- !private ["O19ISBNSearchFramework15SearchBookError", "deinit"]
+- !private ["O19ISBNSearchFramework15SearchBookError", "unknownStructureError"]
+- !private ["C19ISBNSearchFramework15SearchConstants", "Network"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "enumerated"]
+- !private ["Ps8Sequence", "first"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps10SetAlgebra", "allowFragments"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "init"]
+- !private ["CSo10URLSession", "dataTask"]
+- ["CSo10URLSession", "deinit"]
+- !private ["CSo10URLSession", "shared"]
+- ["CSo18URLSessionDataTask", "deinit"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "enumerated"]
+- !private ["Ps14_ArrayProtocol", "first"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "enumerated"]
+- !private ["Ps24_DestructorSafeContainer", "first"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "authors"]
+- !private ["Ps9_Hashable", "bookNotFoundError"]
+- !private ["Ps9_Hashable", "connectionError"]
+- !private ["Ps9_Hashable", "dataTask"]
+- !private ["Ps9_Hashable", "description"]
+- !private ["Ps9_Hashable", "google"]
+- !private ["Ps9_Hashable", "imageLinks"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "items"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "pageCount"]
+- !private ["Ps9_Hashable", "publishedDate"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "resume"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "thumbnail"]
+- !private ["Ps9_Hashable", "title"]
+- !private ["Ps9_Hashable", "unknownStructureError"]
+- !private ["Ps9_Hashable", "volumeInfo"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "enumerated"]
+- !private ["Ps21_ObjectiveCBridgeable", "first"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "V19ISBNSearchFramework9BookModel"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- !private "Vs10Dictionary"
+- !private "Vs18EnumeratedIterator"
+- !private "Vs18EnumeratedSequence"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "O19ISBNSearchFramework21GoogleAPIResponseKeys"
+- "C19ISBNSearchFramework12GoogleSearch"
+- !private "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps16IteratorProtocol"
+- !private "CSo17JSONSerialization"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "VC19ISBNSearchFramework15SearchConstants7Network"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "VCSo17JSONSerialization14ReadingOptions"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "O19ISBNSearchFramework12ScanProvider"
+- "P19ISBNSearchFramework20ScanProviderDelegate"
+- "P19ISBNSearchFramework6Search"
+- !private "O19ISBNSearchFramework15SearchBookError"
+- !private "C19ISBNSearchFramework15SearchConstants"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Vs5Slice"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V10Foundation3URL"
+- "CSo10URLSession"
+- "CSo18URLSessionDataTask"
+- !private "CSo14URLSessionTask"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/alicankarayelli/Desktop/workspace/ISBNSearchFramework/ISBNSearchFramework/ISBNSearchFramework/ISBNSearchFramework/ISBNSearchFramework.h"
+- "/Users/alicankarayelli/Desktop/workspace/ISBNSearchFramework/ISBNSearchFramework/ISBNSearchFramework/build/ISBNSearchFramework.build/Debug-iphonesimulator/ISBNSearchFramework.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+interface-hash: "727d74317cef5553cf843ef5bce00e84"
